@@ -67,4 +67,38 @@
     text-align: center;
     color: white;
     font-size: 25px;
+    /* Responsividade */
+@media (max-width: 768px) {
+    .robotica {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .robotica-div-conteudo {
+        margin: 0;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cabecalho-imagem {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .profissao-todos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profissao-div {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
     }
